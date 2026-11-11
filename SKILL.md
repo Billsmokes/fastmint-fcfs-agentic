@@ -7,6 +7,7 @@ description: Use when the user says "mint free jam HH:MM", "fcfs", "gas", "gausa
 
 `SKILL_DIR` = the folder holding this file (on this machine `~/Claude/.agents/skills/fastmint-fcfs`).
 Everything runs through `./fastmint.sh` from `SKILL_DIR`: `bench`, `recon`, `fire`, `logs`, `locks`.
+Full docs: `README.md` (English) | `README.id.md` (Bahasa Indonesia).
 Speed matters, so skip deep risk research unless the user asks. The safety rails below are never skipped.
 
 ## Safety rails (never skip)
